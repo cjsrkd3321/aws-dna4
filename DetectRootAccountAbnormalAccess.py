@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 CLOUDTRAIL_URL = (
     "https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events/"
 )
-SEARCH_HOURS = 120  # The search time range is 3 hours because (GMT + 9) + 3
+SEARCH_HOURS = 12  # The search time range is 3 hours because (GMT + 9) + 3
 SEARCH_CYCLE = 60  # by second
 MY_IP = json.loads(requests.get("https://ipinfo.io/").text)["ip"]
 DETECTED_EVENT_IDS = []
