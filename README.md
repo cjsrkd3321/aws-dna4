@@ -18,7 +18,7 @@ Python 3.9.12
 
 ```bash
 $ pip install -r requirements.txt
-$ python3 DetectRootAccountAbnormalAccess.py.py
+$ python3 DetectRootAccountAbnormalAccess.py
 ```
 
 ![result](./images/result.png)
